@@ -1,0 +1,16 @@
+C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/CMakeFiles/Weights.dir
+C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/CMakeFiles/UnitTestRunner.dir
+C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/CMakeFiles/ClangFormat.dir
+C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/CMakeFiles/INSTALL.dir
+C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-build/CMakeFiles/INSTALL.dir
+C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-build/CMakeFiles/ALL_BUILD.dir
+C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-build/googlemock/CMakeFiles/INSTALL.dir
+C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-build/googlemock/CMakeFiles/gmock_main.dir
+C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-build/googlemock/CMakeFiles/gmock.dir
+C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-build/googlemock/CMakeFiles/ALL_BUILD.dir
+C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-build/googletest/CMakeFiles/gtest.dir
+C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-build/googletest/CMakeFiles/gtest_main.dir
+C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-build/googletest/CMakeFiles/INSTALL.dir
+C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-build/googletest/CMakeFiles/ALL_BUILD.dir

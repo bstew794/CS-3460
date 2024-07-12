@@ -1,0 +1,20 @@
+^C:\USERS\BSTEW\DOCUMENTS\CS\CS 3460\ASSIGNMENT7\BUILD\CMAKEFILES\EBDAE5069C93F8CA1E4C30702519B5CD\CLANGFORMAT.RULE
+setlocal
+"C:\Program Files\LLVM\bin\clang-format.exe" -i -style=file "C:/Users/bstew/Documents/CS/CS 3460/Assignment7/weight.hpp" "C:/Users/bstew/Documents/CS/CS 3460/Assignment7/TestWeight.cpp" "C:/Users/bstew/Documents/CS/CS 3460/Assignment7/main.cpp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\BSTEW\DOCUMENTS\CS\CS 3460\ASSIGNMENT7\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/bstew/Documents/CS/CS 3460/Assignment7" "-BC:/Users/bstew/Documents/CS/CS 3460/Assignment7/build" --check-stamp-file "C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

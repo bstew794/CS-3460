@@ -1,0 +1,10 @@
+^C:\USERS\BSTEW\DOCUMENTS\CS\CS 3460\ASSIGNMENT7\BUILD\GOOGLETEST-DOWNLOAD\CMAKEFILES\C4B82D6688DA81A072733C7A0D66EBBB\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-download" "-BC:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-download" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-download/googletest-download.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-download/CMakeFiles/googletest"
+		},
+		{
+			"file" : "C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-download/CMakeFiles/c4b82d6688da81a072733c7a0d66ebbb/googletest.rule"
+		},
+		{
+			"file" : "C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-download/CMakeFiles/114b4d65ab6c82b6731b699edce4925c/googletest-complete.rule"
+		},
+		{
+			"file" : "C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-download/CMakeFiles/d24e2d2b3cf46f5ee185f6fdd7cd186d/googletest-build.rule"
+		},
+		{
+			"file" : "C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-download/CMakeFiles/d24e2d2b3cf46f5ee185f6fdd7cd186d/googletest-configure.rule"
+		},
+		{
+			"file" : "C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-download/CMakeFiles/d24e2d2b3cf46f5ee185f6fdd7cd186d/googletest-download.rule"
+		},
+		{
+			"file" : "C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-download/CMakeFiles/d24e2d2b3cf46f5ee185f6fdd7cd186d/googletest-install.rule"
+		},
+		{
+			"file" : "C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-download/CMakeFiles/d24e2d2b3cf46f5ee185f6fdd7cd186d/googletest-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-download/CMakeFiles/d24e2d2b3cf46f5ee185f6fdd7cd186d/googletest-patch.rule"
+		},
+		{
+			"file" : "C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-download/CMakeFiles/d24e2d2b3cf46f5ee185f6fdd7cd186d/googletest-test.rule"
+		},
+		{
+			"file" : "C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-download/CMakeFiles/d24e2d2b3cf46f5ee185f6fdd7cd186d/googletest-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest"
+		],
+		"name" : "googletest"
+	}
+}

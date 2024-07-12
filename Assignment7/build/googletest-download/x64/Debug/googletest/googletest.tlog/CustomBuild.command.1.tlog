@@ -1,0 +1,162 @@
+^C:\USERS\BSTEW\DOCUMENTS\CS\CS 3460\ASSIGNMENT7\BUILD\GOOGLETEST-DOWNLOAD\CMAKEFILES\D24E2D2B3CF46F5EE185F6FDD7CD186D\GOOGLETEST-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-src"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-build"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-download/googletest-prefix"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-download/googletest-prefix/tmp"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-download/googletest-prefix/src/googletest-stamp/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-download/googletest-prefix/src"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-download/googletest-prefix/src/googletest-stamp"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\BSTEW\DOCUMENTS\CS\CS 3460\ASSIGNMENT7\BUILD\GOOGLETEST-DOWNLOAD\CMAKEFILES\D24E2D2B3CF46F5EE185F6FDD7CD186D\GOOGLETEST-DOWNLOAD.RULE
+setlocal
+cd "C:\Users\bstew\Documents\CS\CS 3460\Assignment7\build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-download/googletest-prefix/tmp/googletest-gitclone.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\BSTEW\DOCUMENTS\CS\CS 3460\ASSIGNMENT7\BUILD\GOOGLETEST-DOWNLOAD\CMAKEFILES\D24E2D2B3CF46F5EE185F6FDD7CD186D\GOOGLETEST-UPDATE.RULE
+setlocal
+cd "C:\Users\bstew\Documents\CS\CS 3460\Assignment7\build\googletest-src"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-download/googletest-prefix/tmp/googletest-gitupdate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\BSTEW\DOCUMENTS\CS\CS 3460\ASSIGNMENT7\BUILD\GOOGLETEST-DOWNLOAD\CMAKEFILES\D24E2D2B3CF46F5EE185F6FDD7CD186D\GOOGLETEST-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\BSTEW\DOCUMENTS\CS\CS 3460\ASSIGNMENT7\BUILD\GOOGLETEST-DOWNLOAD\CMAKEFILES\D24E2D2B3CF46F5EE185F6FDD7CD186D\GOOGLETEST-CONFIGURE.RULE
+setlocal
+cd "C:\Users\bstew\Documents\CS\CS 3460\Assignment7\build\googletest-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\BSTEW\DOCUMENTS\CS\CS 3460\ASSIGNMENT7\BUILD\GOOGLETEST-DOWNLOAD\CMAKEFILES\D24E2D2B3CF46F5EE185F6FDD7CD186D\GOOGLETEST-BUILD.RULE
+setlocal
+cd "C:\Users\bstew\Documents\CS\CS 3460\Assignment7\build\googletest-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\BSTEW\DOCUMENTS\CS\CS 3460\ASSIGNMENT7\BUILD\GOOGLETEST-DOWNLOAD\CMAKEFILES\D24E2D2B3CF46F5EE185F6FDD7CD186D\GOOGLETEST-INSTALL.RULE
+setlocal
+cd "C:\Users\bstew\Documents\CS\CS 3460\Assignment7\build\googletest-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\BSTEW\DOCUMENTS\CS\CS 3460\ASSIGNMENT7\BUILD\GOOGLETEST-DOWNLOAD\CMAKEFILES\D24E2D2B3CF46F5EE185F6FDD7CD186D\GOOGLETEST-TEST.RULE
+setlocal
+cd "C:\Users\bstew\Documents\CS\CS 3460\Assignment7\build\googletest-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-test"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\BSTEW\DOCUMENTS\CS\CS 3460\ASSIGNMENT7\BUILD\GOOGLETEST-DOWNLOAD\CMAKEFILES\114B4D65AB6C82B6731B699EDCE4925C\GOOGLETEST-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-download/CMakeFiles/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-download/CMakeFiles/Debug/googletest-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-download/googletest-prefix/src/googletest-stamp/Debug/googletest-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\BSTEW\DOCUMENTS\CS\CS 3460\ASSIGNMENT7\BUILD\GOOGLETEST-DOWNLOAD\CMAKEFILES\C4B82D6688DA81A072733C7A0D66EBBB\GOOGLETEST.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\BSTEW\DOCUMENTS\CS\CS 3460\ASSIGNMENT7\BUILD\GOOGLETEST-DOWNLOAD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-download" "-BC:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-download" --check-stamp-file "C:/Users/bstew/Documents/CS/CS 3460/Assignment7/build/googletest-download/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
